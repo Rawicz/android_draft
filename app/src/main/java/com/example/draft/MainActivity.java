@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * Main Activity of an app that checks parity of an inserted number.
+ */
 public class MainActivity extends AppCompatActivity {
 
    @Override
@@ -15,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
       setContentView(R.layout.activity_main);
    }
 
+   /**
+    * Checks parity of an inserted number.
+    * The use of the method is defined in the layout.
+    * @param view the button which uses this method.
+    */
    @SuppressLint("SetTextI18n")
    public void checkParity(View view) {
       try {
